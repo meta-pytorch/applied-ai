@@ -14,15 +14,15 @@ Inference kernels = no backward pass support.
 
 #### 1 - Triton - MoE (Mixtral) GEMM for accelerating inference. Uses col major access pattern to increase locality.
 
-<img width="556" alt="moe_gemm_a100" src="https://github.com/pytorch-labs/applied-ai/assets/46302957/9eece843-b5e1-4250-a98a-3ae79dff1bc3">
+<img width="556" alt="moe_gemm_a100" src="https://github.com/meta-pytorch/applied-ai/assets/46302957/9eece843-b5e1-4250-a98a-3ae79dff1bc3">
 
 
 #### 2 - Triton - Fused Softmax for both training and inference.
 
-<img width="556" alt="softmax_fused" src="https://github.com/pytorch-labs/applied-ai/assets/46302957/de11686b-4c17-4696-857a-4f56488d6df3">
+<img width="556" alt="softmax_fused" src="https://github.com/meta-pytorch/applied-ai/assets/46302957/de11686b-4c17-4696-857a-4f56488d6df3">
 
 #### 3 - Triton - Fused RMSNorm for both training and inference. 
-[Fused RMSNorm Kernel](https://github.com/pytorch-labs/applied-ai/blob/main/kernels/triton/training/rms_norm/fused_rms_norm.py)
+[Fused RMSNorm Kernel](https://github.com/meta-pytorch/applied-ai/blob/main/kernels/triton/training/rms_norm/fused_rms_norm.py)
 
 #### Other projects from Applied AI
 
